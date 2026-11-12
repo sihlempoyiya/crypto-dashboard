@@ -8,7 +8,7 @@ function BtcChart() {
 
       <p className="text-[10px] text-gray-400 mb-1">8000</p>
 
-      {/* Chart line - matches Figma wave */}
+      
       <svg viewBox="0 0 300 110" className="w-full h-[105px]">
         <path
           d="M0,60 C30,20 50,80 80,55 C110,30 130,90 160,65 C190,40 210,95 240,60 C270,25 290,70 300,50"
@@ -21,7 +21,7 @@ function BtcChart() {
         <circle cx="160" cy="65" r="9" fill="none" stroke="#5B5BD6" strokeOpacity="0.3" strokeWidth="2" />
       </svg>
 
-      {/* Tooltip - exact Figma */}
+     
       <div className="flex justify-center -mt-12 mb-2 relative z-10">
         <span className="bg-[#5B5BD6] text-white text-[10px] px-2 py-1 rounded-md">$25,240</span>
       </div>

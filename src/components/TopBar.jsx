@@ -1,7 +1,7 @@
 function TopBar() {
   return (
     <div className="flex items-center justify-between mb-6">
-      {/* Search - exact Figma */}
+      
       <div className="flex items-center bg-white rounded-full pl-4 pr-3 py-2.5 w-[340px]">
         <span className="text-gray-400 mr-2 text-[14px]">🔍</span>
         <input
@@ -11,7 +11,7 @@ function TopBar() {
         <span className="text-gray-300 text-[14px] ml-2">◎</span>
       </div>
 
-      {/* Right side - exact Figma */}
+     
       <div className="flex items-center gap-3">
         <button className="relative bg-white w-10 h-10 rounded-full flex items-center justify-center text-[16px]">
           🔔
